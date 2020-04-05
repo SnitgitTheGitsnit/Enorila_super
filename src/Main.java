@@ -5,7 +5,7 @@ public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 
 // Forced variable for automatic type inference by using "var" instead of int/String/double etc8876
-    var mstr = " NiceTrySauron ";
+    var mstr = " Snitgit ";
 
 // Just Strings
     String cpu = "Enorila: ";
@@ -29,12 +29,17 @@ This is how the user should start the Programm.
 //--> Admin Mode
     int section;
 
-    System.out.println('\n' + cpu + "Hallo" + mstr + ", mit welcher Sektion willst du beinnen?");
+    System.out.println('\n' + cpu + "Hallo" + mstr + ", mit welcher Sektion willst du beginnen?");
     System.out.print(mstr + ": "); section = scanner.nextInt();
 
     if (section != 0) {
-        System.out.println(cpu + "Alles klar, ich starte Sektion " + section + ".");
+        System.out.println(cpu + "Alles klar, ich starte Sektion " + section + ", zudem wurde 'usr' definiert.");
+        usr = "Snitgit";
+        scanner.nextLine();
+        scanner.nextLine();
     } else {System.out.println(cpu + "Alles klar, einmal das volle Programm!");
+        scanner.nextLine();
+        scanner.nextLine();
      }
 //--> Admin Mode
 
@@ -75,8 +80,8 @@ This is how the user should start the Programm.
 
     System.out.println(cpu + "Als nächstes, " + usr + ", werde ich dir einige weitere Details über mich verraten.");
     System.out.println(cpu + "Zweck der Übung ist das Wiederholen der Wertzuweisung von Variablen.");
-    System.out.println(cpu + "Im Reich der Engel wohne ich in der wunderschönen " + cpuHomeTown + " , ich bin " + cpuAge + " Jahre alt und " + cpuHight + "cm groß.");
-    System.out.println(cpu + "Damit bin ich die Kleinste von, denn ich habe noch " + cpuSiblings + " Geschwister.");
+    System.out.println(cpu + "Im Reich der Engel wohne ich in der wunderschönen " + cpuHomeTown + ", ich bin " + cpuAge + " Jahre alt und " + cpuHight + "cm groß.");
+    System.out.println(cpu + "Damit bin ich die Kleinste in der Familie, denn ich habe noch " + cpuSiblings + " Geschwister.");
     System.out.println(nxt);
     scanner.nextLine();
     }
@@ -87,7 +92,7 @@ This is how the user should start the Programm.
 // Age Guessing Game
     // Explanation part
     System.out.println(cpu + "In diesem Teil bist du jetzt wieder gefragt mitzumachen, denn ich werde mit ein wenig Magie dein Alter erraten!");
-    System.out.println(cpu + "Hihihi, nun ja, Magie ist es nicht ganz, sondern die Anwendung der Rechenart Modulo. Das ist fast genau so cool.");
+    System.out.println(cpu + "Hihihi, nun ja, Magie ist es nicht ganz, sondern die Anwendung der Rechenart Modulo. Das ist fast genauso cool.");
     System.out.println(cpu + "Keine Bange, es ist ganz einfach: Starte den Windows Taschenrechner, gib ein Alter ein, dann drücke die Module-Taste '%' auf deiner Tastatur und anschließend gibst du die Zahl ein, um die ich dich bitte.");
     System.out.println(cpu + "Deine Eingabe sieht dann ungefähr so aus '" + cpuAge + " % 3'.");
     System.out.println(cpu + "Nur keine Angst, es ist wie gesagt ganz einfach :)");
@@ -140,7 +145,7 @@ This is how the user should start the Programm.
     if (section == 0 || section == 99) {
 // End of code
     System.out.println(cpu + usr + ", wir sind nun am Ende des 'Simple Chatty Bot' angelangt.");
-    System.out.println(cpu + "Mein Schöpfer" + mstr + "und ich bedanken uns ganz herzlich fürs Ausprobieren und wünschen dir noch einen schöne Zeit.");
+    System.out.println(cpu + "Mein Schöpfer" + mstr + "und ich bedanken uns ganz herzlich für's Ausprobieren und wünschen dir noch einen schöne Zeit.");
     System.out.println(cpu + "Bis zum nächsten Mal ^,~");
     System.out.println("\nDrücke Enter, um das Programm zu beenden...");
     scanner.nextLine();
